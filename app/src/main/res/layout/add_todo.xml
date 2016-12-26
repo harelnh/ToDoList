@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/TitleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_string"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TitleLabel"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/enter_title_string" 
+        android:inputType="textShortMessage">
+
+        <requestFocus />
+    </EditText>
+
+    <!-- Status -->
+
+    <!-- Priority -->
+
+    <!-- Time and Date -->
+
+    <TextView
+        android:id="@+id/time_and_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_and_date_string"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_date_set_string"
+        android:layout_above="@+id/date_picker_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_time_set_string"
+        android:layout_below="@+id/time_and_date"
+        android:layout_alignLeft="@+id/submitButton"
+        android:layout_alignStart="@+id/submitButton" />
+
+    <Button
+        android:id="@+id/date_picker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_date_string"
+        android:layout_below="@+id/time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/time_picker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/date_picker_button"
+        android:layout_below="@id/time"
+        android:text="@string/choose_time_string" />
+
+    <!-- Buttons -->
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/cancel_string" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reset_string" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/submit_string" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text:"
+        android:id="@+id/Text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:layout_alignRight="@+id/cancelButton"
+        android:layout_alignEnd="@+id/cancelButton"
+        android:textSize="20dp"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_alignRight="@+id/date"
+        android:layout_alignEnd="@+id/date"
+        android:layout_alignBottom="@+id/Text"
+        android:id="@+id/textItselfTitle"></GridLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/textItself"
+        android:layout_below="@+id/Text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

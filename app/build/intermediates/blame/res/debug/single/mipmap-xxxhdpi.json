@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\android\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\bio_icon.png",
+        "source": "C:\\android\\ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\bio_icon.png"
+    },
+    {
+        "merged": "C:\\android\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\android\\ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

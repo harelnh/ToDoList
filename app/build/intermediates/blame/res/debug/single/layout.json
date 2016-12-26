@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\android\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_todo.xml",
+        "source": "C:\\android\\ToDoList\\app\\src\\main\\res\\layout\\add_todo.xml"
+    },
+    {
+        "merged": "C:\\android\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todo_item.xml",
+        "source": "C:\\android\\ToDoList\\app\\src\\main\\res\\layout\\todo_item.xml"
+    },
+    {
+        "merged": "C:\\android\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_view.xml",
+        "source": "C:\\android\\ToDoList\\app\\src\\main\\res\\layout\\footer_view.xml"
+    }
+]
