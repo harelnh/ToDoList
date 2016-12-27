@@ -11,7 +11,7 @@ import android.util.Log;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.List;
-// let's see you
+// once again i bound myself
 /**
  * Created by harel on 10/13/2016.
  */
