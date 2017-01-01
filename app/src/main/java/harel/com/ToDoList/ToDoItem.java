@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.util.Log;
 
 public class ToDoItem {
-
+	//lets see you in action, github!
 	public static final String ITEM_SEP = System.getProperty("line.separator");
 	private static final String TAG = "Lab-UserInterface";
 	public final static String TITLE = "title";
